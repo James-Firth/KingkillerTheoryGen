@@ -43,7 +43,7 @@ function generateTheory(){
 }
 
 function updateTheory(){
-  document.getElementById('joke').innerHtml(generateTheory());
+  document.getElementById('joke').innerHtml = generateTheory();
 }
 
 window.onload = function(){
