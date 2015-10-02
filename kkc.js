@@ -38,7 +38,7 @@ function shuffle(array) {
 
 function generateTheory(){
   shuffle(wordList);
-  var theory = wordList[0] + " is actually "+ wordList[1];
+  var theory = wordList[0] + " is really "+ wordList[1];
   return theory;
 }
 
